@@ -1,49 +1,18 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://github.com/Scottware26/real-del-paso#--gatsby-minimal-starter">
+    <img alt="Real del Paso" src="./src/images/other.svg" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby Minimal Starter
+  Real del Paso
 </h1>
 
-## 🚀 Quick start
-
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
-
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
-
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+## 🚀 Documentación
+1.  **Documentos de Google drive**
+    - [Landing page - Real del Paso](https://docs.google.com/document/d/1qYa0eyKHX-ftEkVk5uHsq7lZKb5mP9VOJELQQFygDLM/edit?usp=sharing)
+    - [Definiciones](https://docs.google.com/document/d/1pX1-z8nFQo8sKUWbXOnyXgb6fr1p1mKdsu9sJZ5wH00/edit?usp=sharing)
+    - [Tecnologías](https://docs.google.com/document/d/1qZMs2VJB8SK6DK5rAqfK_VRxPlVf-Q0lWZzr3dtxbpE/edit?usp=sharing)
+2.  **Diseño de Figma**
+    - [Todas las páginas de Real al del Paso](https://www.figma.com/file/SFIOkkjqBSOIvojhiiHaKj/Real-del-Paso?node-id=0-1&t=5jKwLxUCRhJsTJWg-0)
+3.  **Repositorio de git**
+    - [Scottware26/real-del-paso](https:githubcomScottware26real-del-paso#--gatsby-minimal-starter) 

@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/Scottware26/real-del-paso#--gatsby-minimal-starter">
-    <img alt="Real del Paso" src="./src/images/logo.svg" width="60" />
+    <img alt="Real del Paso" src="./src/images/logo.jpg" width="60" />
   </a>
 </p>
 <h1 align="center">

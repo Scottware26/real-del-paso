@@ -1,4 +1,5 @@
 import * as React from "react"
+import { SEO } from "../components/seo"
 import Header from '../components/header'
 import "./index.css"
 
@@ -13,6 +14,8 @@ const AboutUs = () => {
   )
 }
 
-export const Head = () => <title>Real del Paso - {page}</title>
+export const Head = () => (
+  <SEO/>
+)
 
 export default AboutUs

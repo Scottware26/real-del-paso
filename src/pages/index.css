@@ -4,3 +4,7 @@ html, body, #___gatsby {
     margin: 0;
     padding: 0;
 }
+
+html, body {
+    background-color: #E4CE8C;
+}

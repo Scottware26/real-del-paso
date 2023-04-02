@@ -2,7 +2,7 @@ import * as React from "react"
 import Header from '../components/header'
 import "./index.css"
 
-const page = "Eventos"
+const page = "Salón"
 
 const AboutUs = () => {
   return (

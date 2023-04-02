@@ -9,5 +9,15 @@ module.exports = {
     siteUrl: `https://realdelpasomain.gatsbyjs.io/`
     //siteUrl: `https://www.realdelpaso.com.mx`,
   },
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+  ],
 }

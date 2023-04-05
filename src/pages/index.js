@@ -1,5 +1,5 @@
 import * as React from "react"
-import { SEO } from "../components/seo"
+import Seo from "../components/seo"
 import Header from '../components/header'
 import "./index.css"
 
@@ -12,7 +12,7 @@ const IndexPage = () => {
 }
 
 export const Head = () => (
-  <SEO />
+  <Seo title="Página principal" />
 )
 
 export default IndexPage

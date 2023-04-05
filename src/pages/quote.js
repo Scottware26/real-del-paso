@@ -3,9 +3,9 @@ import Seo from "../components/seo"
 import Header from '../components/header'
 import "./index.css"
 
-const page = "Quiénes somos"
+const page = "Cotizar evento"
 
-const AboutUs = () => {
+const Quote = () => {
   return (
     <div>
         <Header/>
@@ -18,4 +18,4 @@ export const Head = () => (
   <Seo title={page}/>
 )
 
-export default AboutUs
+export default Quote

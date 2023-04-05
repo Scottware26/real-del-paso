@@ -4,7 +4,7 @@ import "./index.css"
 
 const page = "Salón"
 
-const AboutUs = () => {
+const Place = () => {
   return (
     <div>
         <Header/>
@@ -15,4 +15,4 @@ const AboutUs = () => {
 
 export const Head = () => <title>Real del Paso - {page}</title>
 
-export default AboutUs
+export default Place

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import './header.scss'
+import 'src/asserts/styles/header.scss'
 import { StaticImage } from 'gatsby-plugin-image'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 
@@ -12,20 +12,19 @@ const Header = () => {
                 siteMetadata {
                     title
                     description
-                    image
-                    
+                    siteUrl
                 }
             }
         }
     `)
 
     return (
-        <div className="container">
+        <header>
             <div className="headers">
                 <h1>
-                    <Link to='/' className="headerText">{data.site.siteMetadata.title}</Link>
+                    <Link to={data.site.siteMetadata.siteUrl} className="headerText">{data.site.siteMetadata.title}</Link>
                 </h1>
-                <p className="subHeaderText">{data.site.siteMetadata.description}</p>
+                <h2 className="subHeaderText">{data.site.siteMetadata.description}</h2>
             </div>
             <nav className="nav">
                 <ul className="navList">
@@ -46,8 +45,8 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
-            <StaticImage className="small-logo"  src="../images/logo.jpg" alt="Real del Paso - Small logo"/>
-        </div>
+            <StaticImage className="small-logo"  src="../asserts/images/logo.jpg" alt="Real del Paso - Small logo"/>
+        </header>
     )
 }
 

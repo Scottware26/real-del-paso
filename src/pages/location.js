@@ -1,7 +1,7 @@
 import * as React from "react"
-import Seo from "../components/seo"
-import Header from '../components/header'
-import "./index.css"
+import Seo from "src/components/seo"
+import Header from 'src/components/header'
+import "src/asserts/styles/base.scss"
 
 const page = "Ubicación"
 

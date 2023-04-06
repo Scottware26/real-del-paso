@@ -18,9 +18,10 @@ const Seo = ({ title }) => {
 
   return (
     <>
+        <meta charSet="UTF-8" />
+        <html lang="en" />
         <title>{title} | {data.site.siteMetadata.title}</title>
         <meta name="description" content={data.site.siteMetadata.description} />
-        <meta name="image" content={data.site.siteMetadata.image} />
     </>
   )
 }

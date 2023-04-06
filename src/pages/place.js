@@ -1,6 +1,6 @@
 import * as React from "react"
-import Header from '../components/header'
-import "./index.css"
+import Header from 'src/components/header'
+import "src/asserts/styles/base.scss"
 
 const page = "Salón"
 

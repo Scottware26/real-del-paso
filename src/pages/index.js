@@ -1,13 +1,17 @@
 import * as React from "react"
-import Seo from "../components/seo"
-import Header from '../components/header'
-import "./index.css"
+import Seo from "src/components/seo"
+import Header from 'src/components/header'
+import Slider from 'src/components/slider'
+import Footer from 'src/components/footer'
+import "src/asserts/styles/base.scss"
 
 const IndexPage = () => {
   return (
-    <div>
+    <>
         <Header/>
-    </div>
+        <Slider/>
+        <Footer/>
+    </>
   )
 }
 
